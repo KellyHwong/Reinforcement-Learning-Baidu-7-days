@@ -46,3 +46,9 @@ tutorials: [https://github.com/PaddlePaddle/PARL/blob/develop/examples/tutorials
 ```python
 python train.py
 ```
+
+## 参考资料
+
+- 《Reinforcement Learning：An Introduction》
+- 伯克利 2018 Deep RL 课程：http://rail.eecs.berkeley.edu/deeprlcourse/
+- 强化学习库 PARL：https://github.com/PaddlePaddle/PARL

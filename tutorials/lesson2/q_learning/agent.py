@@ -32,10 +32,10 @@ class QLearningAgent(object):
 
     # 根据输入观察值，采样输出的动作值，带探索
     def sample(self, obs):
-        if np.random.uniform(0, 1) < (1.0 - self.epsilon):  #根据table的Q值选动作
+        if np.random.uniform(0, 1) < (1.0 - self.epsilon):  # 根据table的Q值选动作
             action = self.predict(obs)
         else:
-            action = np.random.choice(self.act_n)  #有一定概率随机探索选取一个动作
+            action = np.random.choice(self.act_n)  # 有一定概率随机探索选取一个动作
         return action
 
     # 根据输入观察值，预测输出的动作值
